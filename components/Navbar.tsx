@@ -2,14 +2,13 @@ import { AppBar, IconButton, Stack, Toolbar, Typography } from "@mui/material";
 import StorefrontIcon from "@mui/icons-material/Storefront";
 import ShoppingCartIcon from "@mui/icons-material/ShoppingCart";
 import { useShoppingCart } from "../context/ShoppingCartContext";
-import { theme } from "../theme";
 
 export const Navbar = () => {
   const { toggleDrawer, cartQuantity } = useShoppingCart();
 
   return (
     <AppBar position="static">
-      <Toolbar sx={{ background: theme.palette.primary.light }}>
+      <Toolbar sx={{ background: "#1976d2" }}>
         <IconButton color="inherit">
           <StorefrontIcon />
         </IconButton>
@@ -17,7 +16,11 @@ export const Navbar = () => {
           Shopping Cart Task
         </Typography>
         <Stack direction="row" spacing={2}>
-          <IconButton data-testid="cartBtn" color="inherit" onClick={toggleDrawer(true)}>
+          <IconButton
+            data-testid="cartBtn"
+            color="inherit"
+            onClick={toggleDrawer(true)}
+          >
             <ShoppingCartIcon sx={{ position: "relative" }} />
             {cartQuantity > 0 && (
               <Typography
