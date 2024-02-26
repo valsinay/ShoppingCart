@@ -24,7 +24,7 @@ import CardContent from "@mui/material/CardContent";
 import CardMedia from "@mui/material/CardMedia";
 import SortIcon from "@mui/icons-material/Sort";
 import { useShoppingCart } from "../context/ShoppingCartContext";
-import { Category, SortEnums } from "../interfaces/App.types";
+import { Category, SortEnums } from "../models/App.types";
 
 export const Products = () => {
   const { products, loading, increaseCartQuantity, handleChangeSort, sortString } =

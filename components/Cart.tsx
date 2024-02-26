@@ -12,7 +12,7 @@ import {
 } from "@mui/material";
 import CloseIcon from "@mui/icons-material/Close";
 import {useShoppingCart } from "../context/ShoppingCartContext";
-import { CartItemProps, DiscountCodes, ResponseData } from "../interfaces/App.types";
+import { CartItemProps, DiscountCodes, ResponseData } from "../models/App.types";
 import CartItem from "./CartItem";
 import { EmptyCart } from "./EmptyCart";
 

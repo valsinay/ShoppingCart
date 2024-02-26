@@ -6,7 +6,7 @@ import {
   ShoppingCartContextProps,
   ShoppingCartProviderProps,
   SortEnums,
-} from "../interfaces/App.types";
+} from "../models/App.types";
 import { SelectChangeEvent } from "@mui/material";
 
 const API_URL_GET =

@@ -11,7 +11,7 @@ import AddIcon from "@mui/icons-material/Add";
 import RemoveIcon from "@mui/icons-material/Remove";
 import DeleteIcon from '@mui/icons-material/Delete';
 import { useShoppingCart } from "../context/ShoppingCartContext";
-import { CartItemProps } from "../interfaces/App.types";
+import { CartItemProps } from "../models/App.types";
 
 const CartItem = ({ id, quantity }: CartItemProps) => {
   const {
