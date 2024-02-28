@@ -7,9 +7,11 @@ The application provides a list of products fetched from an API service.Users ca
 ## Future Improvements
 Performance Optimization: The application can benefit from performance optimization techniques such as lazy loading, code splitting, and memoization to improve load times and responsiveness.
 
-## Testing: The application can benefit from more comprehensive testing, including unit tests, integration tests, and end-to-end tests.
+## Testing:
+The application can benefit from more comprehensive testing, including unit tests, integration tests, and end-to-end tests.
 
-## Accessibility: Future improvements can include better adherence to accessibility standards to make the application more user-friendly for all users, including those with disabilities.
+## Accessibility: 
+Future improvements can include better adherence to accessibility standards to make the application more user-friendly for all users, including those with disabilities.
 
 In the server directory, you can run:
 
